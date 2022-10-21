@@ -46,9 +46,21 @@
         display: flex;   
         flex-direction: column;
         height: 200px !important;
-       
-      
     }
+    .click .span2{
+        display: none !important;
+    }
+    .click .span1{
+
+       transform: rotateZ(140deg);
+
+    }
+    .click .span3{
+        position: relative;
+        top: -10px;
+  
+        transform: rotateZ(50deg);
+     }
   
     
  
