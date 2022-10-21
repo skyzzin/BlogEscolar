@@ -1,7 +1,17 @@
 @media(max-width:800px){
     .menu {
+        position: absolute;
         flex-direction: column;
         display: flex;
+        width: 200px !important;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.781);  
+        margin-top: 200px;
+        margin-left: 60%;
+    }
+    .text{
+        position: absolute;
+        margin-top: 50%;
     }
     .disable{
         display: none !important;
@@ -10,9 +20,9 @@
         display: flex !important;
         flex-direction: column;
         gap: 5px;
-        margin-right: 10px;
+       
         cursor: pointer;
-        margin-right: 150px;
+        margin-right: 50px;
     }
     #btn span{
         width: 40px;
@@ -25,7 +35,21 @@
     }
     #inicio{
         width: 100%;
+       
     }
+    /* Participantes */
+    .box a img{
+        width: 50% !important;
+        height: 50% !important;
+    }
+    #contato{
+        display: flex;   
+        flex-direction: column;
+        height: 200px !important;
+       
+      
+    }
+  
     
  
 }
