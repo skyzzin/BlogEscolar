@@ -69,7 +69,23 @@ html{
     width: 100%;
     height: 100vh;
     background: rgb(43, 179, 189);
+    background-image: url('../Assets/BG_Artigo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+.text-container-article{
+
+   
+
+}
+.line1{
+   padding-top: 100px;
+   padding-left: 80px;
+   font-size: larger;
+   color: white;
+
+}
+
 #redes{
     background: rgb(55, 161, 168);
     width: 100%;
