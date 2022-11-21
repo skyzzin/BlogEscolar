@@ -1,93 +1,78 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="Estilos/index.css">
-    <script src="Scripts/script.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="header">
         <h1>Blog Turma 2VB</h1>
-      
-        <ul class="menu disable">
+
+        <ul class="menu">
+
+            <div id="btn" class="">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#artigo">Artigo</a></li>
             <li><a href="#turma">Turma</a></li>
-            <li><a href="#contato">Contato</a></li>
         </ul>
-        
-        <div id="btn" class="">
-            <span class="span1"></span>
-            <span class="span2"></span>
-            <span class="span3"></span>
-        </div>
+
+        <ul class="" id="drop">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#artigo">Artigo</a></li>
+            <li><a href="#turma">Turma</a></li>
+        </ul>
     </header>
+
     <main class="main">
-        <div class="container">
-            <div id="inicio">
-                <div class="text-container">
-                   <div class="text">
-                    <h1>Trabalho De Iniciação Cientifica</h1> Professor Frank Segundo Ano Vespertino B
-                    <br><br><br>   
-                    <a href="https://www.iberdrola.com/sustentabilidade/energia-eolica#:~:text=A%20energia%20e%C3%B3lica%20%C3%A9%20aquela%20obtida%20a%20partir%20da%20for%C3%A7a%20do%20vento.&text=O%20processo%20de%20extra%C3%A7%C3%A3o%20%C3%A9,dita%20energia%20mec%C3%A2nica%20em%20el%C3%A9trica)." target="_blank">  <h1>Energia Elólica</h1></a>
-                    A energia eólica é aquela obtida a partir da força do vento. <br>
-                    O processo de extração é realizado principalmente <br>
-                     graças ao rotor (que transforma a energia cinética em energia mecânica) <br>
-                      e ao gerador (que transforma dita energia mecânica em elétrica).
-                   </div>
+        <div class="body" id="inicio">
+            <img src="Assets/bg.jpg" alt="">
+            <div class="text">
+                <h1>Trabalho De Iniciação Cientifica</h1>
+                Professor Frank Segundo Ano Vespertino B
+                <br><br><br>
+                <h1>Energia Elólica</h1>
+                A energia eólica é aquela obtida a partir da força do vento. <br>
+                O processo de extração é realizado principalmente <br>
+                graças ao rotor (que transforma a energia cinética em energia mecânica) <br>
+                e ao gerador (que transforma dita energia mecânica em elétrica).
+            </div>
+        </div>
 
-        
-                </div>
+        <div class="body" id="artigo">
+            <img src="Assets/BG_Artigo.jpg" alt="">
+
+            <div class="text2">
+                <h1>Artigo</h1>
+                Em anos, fontes energéticas como o vento, a água e a lenha dominavam a produção de calor
+                e de força motriz. Em épocas mais recentes, as novas fontes–o
+                carvão, o petróleo, o gás e o nuclear–substituíram estas fontes, em particular nos países
+                que se foram industrializando.
+                O ressurgimento de energias renováveis foi a partir dos choques
+                petrolíferos da década de 70. A necessidade
+                de assegurar a diversidade e segurança no fornecimento de energia
+                e a obrigação de proteger o ambiente, cuja grande
+                degradação é acentuada pelo uso de combustíveis fósseis, motivou bom renovado
+                interesse pelas fontes renováveis.
             </div>
 
-            <div id="artigo">
-              
-                    <div class="text-container-article">
-                  
-                        <div class="line1">
-                            <h1>Artigo </h1>
-                            Em anos, fontes energéticas como o vento, a água e a lenha dominavam a produção de calor <br>
-                            e de força motriz. Em épocas mais recentes, as novas fontes–o  <br>
-                            carvão, o petróleo, o gás e o nuclear–substituíram estas fontes, em particular nos países <br> 
-                            que se foram industrializando. <br>
-                            O ressurgimento de energias renováveis foi a partir dos choques <br> 
-                            petrolíferos da década de 70. A necessidade <br>
-                            de assegurar a diversidade e segurança no fornecimento de energia  <br>
-                            e a obrigação de proteger o ambiente, cuja grande <br>
-                             degradação é acentuada pelo uso de combustíveis fósseis, motivou bom renovado <br>
-                              interesse pelas fontes renováveis. <br>
-                        </div>
-                    </div>
-                
-                
-        
-            </div>
+        </div>
 
-            <div id="turma">
-                <h1>Foto Da Turma</h1>
-              
-            </div>
-
-            <div id="contato">
-                <div class="contato-text">
-                    <span>Desenvolvedor Web</span>
-                    <span>&copy;Feito Por Douglas Silva Santos</span>
-                    <span>Email <b>contato.douglas.dev@gmail.com</b></span>
-                </div>
-            
-                <div class="contato-redes">
-                    <a href="https://www.linkedin.com/in/douglas-silva-309b4522a/" target="_blank"><img src="Assets/in.png" alt=""></a>
-                    <a href="https://github.com/skyzzin" target="_blank"><img src="Assets/git.png" alt=""></a>
-                </div>
-            </div>
+        <div class="body" id="turma">
+            <img src="" alt="">
         </div>
     </main>
 
-  <script>
-        alert('a Responsividade Para Dispositivos Moveis Está Em Desenvolvimento')
-    </script> 
+    <footer class="footer">
+
+    </footer>
+    
 </body>
 </html>
