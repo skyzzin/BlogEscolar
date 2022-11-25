@@ -56,14 +56,21 @@ body{
 .text{
     color: white;
     position: absolute;
-    top: 200px;
+    top: 100px;
     margin-left: 50px;
 }
+.text h1{
+    font-size: 20pt;
+}
+#artigo{
+    position: relative;
+}
 .text2{
-    color: white;
     position: absolute;
-    top: 950px;
-    margin-left: 50px;
+    color: white;
+    top: 100px;
+    margin-left: 40px;
+    width: 80%;
     background: rgba(0, 0, 0, 0.548);
 }
 #drop{
@@ -77,6 +84,7 @@ body{
 #drop li a{
     color: black;
 }
+
 
 
 
@@ -135,6 +143,28 @@ body{
         display: flex !important; 
         flex-direction: column;
         background: rgb(252, 248, 248);
+    }
+    .text{
+        top: 100px;
+    }
+    .text h1{
+        font-size: 10pt;
+       
+    }
+    .text h2{
+        font-size: 10pt;
+        font-weight: 500;
+    }
+    
+    .text2{
+        color: white;
+        position: absolute;
+        top: 150px;
+        margin-left: 40px;
+        width: 80%;
+        background: rgba(0, 0, 0, 0.548);
+        border-radius: 10px;
+        padding: 5px;
     }
     
   
